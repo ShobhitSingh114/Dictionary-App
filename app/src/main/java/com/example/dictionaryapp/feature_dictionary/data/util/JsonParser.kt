@@ -6,6 +6,8 @@ interface JsonParser {
 
     fun <T> toJson(obj: T, type: Type): String?
 
+
+
 }
 
 // Note :
